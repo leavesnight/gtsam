@@ -16,6 +16,7 @@
  * @author  Frank Dellaert
  */
 
+#include <iostream>
 #include <gtsam/base/Vector.h>
 #include <boost/optional.hpp>
 #include <stdexcept>

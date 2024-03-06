@@ -15,6 +15,7 @@
  * @author Christian Potthast
  */
 
+#include <iostream>
 #include <gtsam/global_includes.h>
 #include <gtsam/base/Matrix.h>
 #include <gtsam/base/timing.h>

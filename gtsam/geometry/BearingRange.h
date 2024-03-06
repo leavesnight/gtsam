@@ -18,6 +18,7 @@
 
 #pragma once
 
+#include <iostream>
 #include <gtsam/base/Manifold.h>
 #include <gtsam/base/Testable.h>
 #include <gtsam/base/OptionalJacobian.h>

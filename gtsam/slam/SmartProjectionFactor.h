@@ -529,7 +529,7 @@ public:
 
   /// Is result valid?
   bool isValid() const {
-    return result_;
+    return (bool)result_;
   }
 
   /** return the degenerate state */

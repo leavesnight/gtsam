@@ -16,6 +16,7 @@
  * @brief 2D Rotations
  */
 
+#include <iostream>
 #include <gtsam/geometry/Rot2.h>
 
 using namespace std;

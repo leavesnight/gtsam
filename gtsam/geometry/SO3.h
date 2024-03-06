@@ -20,6 +20,7 @@
 
 #pragma once
 
+#include <iostream>
 #include <gtsam/base/Matrix.h>
 #include <gtsam/base/Lie.h>
 

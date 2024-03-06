@@ -17,6 +17,7 @@
  */
 
 #pragma once
+#include <iostream>
 #include <gtsam/config.h>      // Configuration from CMake
 #include <gtsam/nonlinear/internal/JacobianMap.h>
 #include <gtsam/inference/Key.h>

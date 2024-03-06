@@ -19,6 +19,7 @@
 
 #pragma once
 
+#include <iostream>
 #include <gtsam/base/Manifold.h>
 #include <gtsam/base/Value.h>
 

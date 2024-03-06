@@ -19,6 +19,7 @@
 
 #pragma once
 
+#include <iostream>
 #include <gtsam/geometry/Point3.h>
 #include <cmath>
 
