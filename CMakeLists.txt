@@ -150,6 +150,10 @@ endif()
 ###############################################################################
 # Find TBB
 find_package(TBB)
+#set(TBB_INCLUDE_DIR /opt/intel/compilers_and_libraries_2018.0.128/linux/tbb/include)
+#set(TBB_LIBRARIES /opt/intel/compilers_and_libraries_2018.0.128/linux/tbb/lib/intel64_lin/gcc4.7/libtbb.so;
+#		/opt/intel/compilers_and_libraries_2018.0.128/linux/tbb/lib/intel64_lin/gcc4.7/libtbbmalloc.so)
+#message(FATAL_ERROR "check TBB=${TBB_INCLUDE_DIR} ${TBB_LIBRARIES}")
 
 # Set up variables if we're using TBB
 if(TBB_FOUND AND GTSAM_WITH_TBB)
@@ -186,6 +190,13 @@ find_package(GooglePerfTools)
 ###############################################################################
 # Find MKL
 find_package(MKL)
+#set(MKL_INCLUDE_DIR /opt/intel/compilers_and_libraries_2018.1.163/linux/mkl/include)
+#set(MKL_LIBRARIES /opt/intel/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64_lin/libmkl_intel_lp64.so;
+#		/opt/intel/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64_lin/libmkl_gnu_thread.so;
+#		/opt/intel/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64_lin/libmkl_core.so;
+#		/opt/intel/compilers_and_libraries_2018.1.163/linux/mkl/lib/intel64_lin/libmkl_lapack95_lp64.a;
+#		/opt/intel/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64_lin/libiomp5.so)
+#message(FATAL_ERROR "check MKL=${MKL_INCLUDE_DIR} ${MKL_LIBRARIES}")
 
 if(MKL_FOUND AND GTSAM_WITH_EIGEN_MKL)
     set(GTSAM_USE_EIGEN_MKL 1) # This will go into config.h
